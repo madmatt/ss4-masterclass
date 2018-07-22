@@ -1,0 +1,8 @@
+/silverstripe-cache/
+/.idea
+/.env
+/.vagrant
+/vendor/
+/themes/simple/
+/resources/
+/public/resources/
