@@ -99,3 +99,7 @@ Mysite\PageTypes\MemberViewPage:
     Title: Members
     URLSegment: members
 
+Mysite\PageTypes\SitemapPage:
+  sitemap:
+    Title: Sitemap
+    URLSegment: sitemap
