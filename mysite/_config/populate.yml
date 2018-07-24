@@ -1,0 +1,12 @@
+DNADesign\Populate\Populate:
+  truncate_objects:
+    - Page
+    - Mysite\PageTypes\MemberViewPage
+    - Mysite\PageTypes\SitemapPage
+    - SilverStripe\Security\Group
+    - SilverStripe\Security\Member
+    - SilverStripe\SiteConfig\SiteConfig
+  include_yaml_fixtures:
+    - mysite/fixtures/siteconfig.yml
+    - mysite/fixtures/members.yml
+    - mysite/fixtures/pages.yml

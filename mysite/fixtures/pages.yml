@@ -1,0 +1,101 @@
+Page:
+  home:
+    Title: Home
+    URLSegment: home
+  about-us:
+    Title: About Us
+    URLSegment: about-us
+  the-company:
+    Title: The Company
+    URLSegment: company
+    ParentID: =>Page.about-us
+  our-history:
+    Title: Our History
+    URLSegment: history
+    ParentID: =>Page.the-company
+  our-values:
+    Title: Our Values
+    URLSegment: values
+    ParentID: =>Page.the-company
+  our-team:
+    Title: Our team
+    URLSegment: team
+    ParentID: =>Page.about-us
+  john:
+    Title: John Smith
+    URLSegment: john
+    ParentID: =>Page.our-team
+  jane:
+    Title: Jane Smith
+    URLSegment: jane
+    ParentID: =>Page.our-team
+  charlie:
+    Title: Charlie Smith
+    URLSegment: charlie
+    ParentID: =>Page.our-team
+  joan:
+    Title: Joan Smith
+    URLSegment: Joan
+    ParentID: =>Page.our-team
+  walder:
+    Title: Walder Smith
+    URLSegment: walder
+    ParentID: =>Page.our-team
+  sarah:
+    Title: Sarah Smith
+    URLSegment: sarah
+    ParentID: =>Page.our-team
+  jayne:
+    Title: Jayne Smith
+    URLSegment: jayne
+    ParentID: =>Page.our-team
+  Mal:
+    Title: Malcolm Smith
+    URLSegment: mal
+    ParentID: =>Page.our-team
+  chip:
+    Title: Chip Smith
+    URLSegment: chip
+    ParentID: =>Page.our-team
+  katie:
+    Title: Katie Smith
+    URLSegment: katie
+    ParentID: =>Page.our-team
+  daniel:
+    Title: Daniel Smith
+    URLSegment: daniel
+    ParentID: =>Page.our-team
+  jessica:
+    Title: Jessica Smith
+    URLSegment: jessica
+    ParentID: =>Page.our-team
+  aaron:
+    Title: Aaron Smith
+    URLSegment: aaron
+    ParentID: =>Page.our-team
+  bryn:
+    Title: Bryn Smith
+    URLSegment: bryn
+    ParentID: =>Page.our-team
+  benn:
+    Title: Benn Smith
+    URLSegment: ben
+    ParentID: =>Page.our-team
+  ben:
+    Title: Ben Smith
+    URLSegment: ben
+    ParentID: =>Page.our-team
+  kylie:
+    Title: Kylie Smith
+    URLSegment: kylie
+    ParentID: =>Page.our-team
+  karthick:
+    Title: Karthick Smith
+    URLSegment: karthick
+    ParentID: =>Page.our-team
+
+Mysite\PageTypes\MemberViewPage:
+  members:
+    Title: Members
+    URLSegment: members
+

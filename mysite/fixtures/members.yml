@@ -1,0 +1,51 @@
+SilverStripe\Security\Member:
+  super-secret-admin:
+    FirstName: Super Secret
+    Surname: Admin
+    Email: secretadmin@example.com
+    IsVisible: false
+  normal-user:
+    FirstName: John
+    Surname: Smith
+    Email: john@example.com
+    IsVisible: true
+  normal-user-2:
+    FirstName: Charlie
+    Surname: Simpson
+    Email: charlie@example.com
+    IsVisible: true
+  normal-user-3:
+    FirstName: James
+    Surname: Cameron
+    Email: james@example.com
+    IsVisible: true
+  normal-user-4:
+    FirstName: Leonie
+    Surname: Smith
+    Email: leonie@example.com
+    IsVisible: true
+  normal-user-5:
+    FirstName: Sarah
+    Surname: Swan
+    Email: sarah@example.com
+    IsVisible: true
+  normal-user-6:
+    FirstName: Lionel
+    Surname: Gerry
+    Email: lionel@example.com
+    IsVisible: true
+  normal-user-7:
+    FirstName: Geoff
+    Surname: Carr
+    Email: geoff@example.com
+    IsVisible: true
+  normal-user-8:
+    FirstName: Jane
+    Surname: Worthington
+    Email: jane@example.com
+    IsVisible: true
+  normal-user-9:
+    FirstName: Sue
+    Surname: Smith
+    Email: sue@example.com
+    IsVisible: true
